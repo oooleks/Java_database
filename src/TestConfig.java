@@ -2,9 +2,9 @@
 public class TestConfig {
 
 	public static String server = "smtp.gmail.com";
-	public static String from = "oooleks@gmail.com";
-	public static String password = "203717";
-	public static String[] to = {"ooleks@yahho.com"};
+	public static String from = "myemail@gmail.com";
+	public static String password = "password";
+	public static String[] to = {"my2email@yahho.com"};
 	public static String subject = "Test Report";
 	
 	public static String messageBody = "TestMessage";
@@ -19,7 +19,7 @@ public class TestConfig {
 	
 	//MYSQL DATABASE DETAILS
 	public static String mysqldriver = "com.mysql.jdbc.Driver";
-	public static String mysqluserName = "oleks";
-	public static String mysqlpassword = "203717ool";
+	public static String mysqluserName = "root";
+	public static String mysqlpassword = "root";
 	public static String mysqlurl = "jdbc:mysql://localhost:3306/studentsdb";	
 }
